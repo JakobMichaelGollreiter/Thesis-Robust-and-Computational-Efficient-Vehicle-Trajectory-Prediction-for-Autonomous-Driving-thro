@@ -88,7 +88,7 @@ This dataset can now be utilised for training the neural networks (Encoder + MLP
 
 ### Prediction inference 
 
-![Sample Video](../video_trajectory_output/trajectory_prediction_DEU_Flensburg-36_1_T-1__2023_08_19_12:10:01.mp4)
+![Sample Video](video_trajectory_output/trajectory_prediction_DEU_Flensburg-36_1_T-1__2023_08_19_12:10:01.mp4)
 
 To make multi-agent predicion for all vehicles present in a scenario, do the following steps:
 ##### 1) Configure the config.ini file as follows:
@@ -200,6 +200,6 @@ To do a test training **localy** one can also use the **commonroad_prediction/pr
 ## Trajectory Prediction Videos
 In the folder /video_trajectory_output there are three output prediction videos from a test set. If you create make your own prediction inference run the video will also be created in here.
 
-![Sample Video Flensburg 36](../video_trajectory_output/trajectory_prediction_DEU_Flensburg-36_1_T-1__2023_08_19_12:10:01.mp4)
-![Sample Video Flensburg 1](../video_trajectory_output/trajectory_prediction_DEU_Flensburg-1_1_T-1__2023_08_16_22:27:51.mp4)
-![Sample Video Lohmar 11](../video_trajectory_output/trajectory_prediction_DEU_Lohmar-11_1_T-1__2023_08_18_22:08:58.mp4)
+![Sample Video Flensburg 36](video_trajectory_output/trajectory_prediction_DEU_Flensburg-36_1_T-1__2023_08_19_12:10:01.mp4)
+![Sample Video Flensburg 1](video_trajectory_output/trajectory_prediction_DEU_Flensburg-1_1_T-1__2023_08_16_22:27:51.mp4)
+![Sample Video Lohmar 11](video_trajectory_output/trajectory_prediction_DEU_Lohmar-11_1_T-1__2023_08_18_22:08:58.mp4)
