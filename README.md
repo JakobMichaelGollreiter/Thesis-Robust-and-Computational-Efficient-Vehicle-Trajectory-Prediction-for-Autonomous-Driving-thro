@@ -7,7 +7,7 @@ To assess the results, the correctness of the predictions is evaluated at each t
 
 If you have any questions about my code or dataset, I´m happy to help. You can contact me by mail: **jakob.gollreiter@tum.de**
 
-![Sample Image](../Images/FrontIm.png){:height="70%" width="70%"}
+[](url)![Sample Image](Images/FrontIm.png){:height="70%" width="70%"}
 
 The TUM-CommonRoad tool (https://commonroad.in.tum.de) is used as data source. 
 
@@ -35,7 +35,7 @@ The `main.py` script serves as the central component of this project. It facilit
 - **Prediction Inference**: Load a `.xml` file representing a scenario and choose a neural network model for predicting trajectories of all vehicles present in the scenario.
 
 ### Data Generation
-![Sample Image](../Images/featureExtraction.png){:height="60%" width="60%"}
+![Sample Image](Images/featureExtraction.png){:height="60%" width="60%"}
 
 To generate input data and ground truth for trajectory prediction, do the following steps:
 ##### 1) Configure the config.ini file as follows:
@@ -162,7 +162,7 @@ For the training of the Encoders the following dataset is used (../db39/imageTra
 Both of these datasets where created like described in Data Generation
 ### Training the Autoencoder -> Encoder
 This is the training of an encoder that compresses the mapInView feature. A linear and a convolutional autoencoder are both trained and compared with each other.
-![Sample Image](../Images/%E2%80%8Eautoencoder.png){:height="50%" width="50%"}
+![Sample Image](Images/%E2%80%8Eautoencoder.png){:height="50%" width="50%"}
 
 ##### Linear Autoencoder
 The training of the linear autoencoder is done with the module **(../comparisonLinearVsCNNVsCNN/LAE39ServerModelLinear64x1x1.py)**
@@ -173,7 +173,7 @@ The training of the convolutional autoencoder is done with the module **(../comp
 Here you should specify the correct path to a csv-file for example db39/imageTrain2/combine.csv or cleanedCombine.csv (cleaned version, not affecting mapInView feature)
 
 ### Training the trajectory prediction Multi-Layer Perceptron 
-![Sample Image](../Images/ValidationImagesOverEpochsNew.png){:height="42%" width="42%"}
+![Sample Image](Images/ValidationImagesOverEpochsNew.png){:height="42%" width="42%"}
 
 
 The training of the trajectory prediction, MLP is done with the module **trajectoryPrediction.py**:
