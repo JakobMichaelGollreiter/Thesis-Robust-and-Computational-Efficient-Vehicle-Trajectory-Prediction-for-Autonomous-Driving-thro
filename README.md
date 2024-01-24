@@ -156,7 +156,7 @@ If you set in confif.ini **buildImagesAndVideo** to **True**, **inference** to *
 ## Training the Networks
 The trajectory prediction network architecture is composed out of two networks in series. The Encoder is there to encode the information of the mapInView input feature in order to get a compressed representation of it. Over the course of the thesis, two autoencoder architectures were designed and compared with another. One linear and one convolutional autoencoder were designed.  
 In the **notebook commonroad-prediction/comparisonLinearVsCNNVsCNN/autoencoderComparison/compareLinearVsCNN39notAug.ipynb** the two trained autoencoders are **challenged and compared** with another. 
-#[](url)![Sample Image](Images/net.png){:height="70%" width="70%"}
+#[](url)![Sample Image](Images/network_architecture.png){:height="70%" width="70%"}
 For the training of the MLP the following dataset is used: (../db39/mega/cleanedCombine.csv)  
 For the training of the Encoders the following dataset is used (../db39/imageTrain2/combined.csv)  
 Both of these datasets where created like described in Data Generation
