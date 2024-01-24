@@ -35,7 +35,7 @@ The `main.py` script serves as the central component of this project. It facilit
 - **Prediction Inference**: Load a `.xml` file representing a scenario and choose a neural network model for predicting trajectories of all vehicles present in the scenario.
 
 ### Data Generation
-![Sample Image](Images/featureExtraction.png){:height="60%" width="60%"}
+!(url)![Sample Image](Images/featureExtraction.png){:height="60%" width="60%"}
 
 To generate input data and ground truth for trajectory prediction, do the following steps:
 ##### 1) Configure the config.ini file as follows:
