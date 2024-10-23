@@ -6,6 +6,8 @@ The main objective of this thesis is to create an input data pipeline and to tra
 To assess the results, the correctness of the predictions is evaluated at each timestep. This evaluation involves calculating two standard evaluation metrics which are then averaged across all vehicles present. Additionally, a later-created video showcases both the ground truth and the predicted trajectories, displaying the displacement errors (evaluation metric) to quantify the accuracy and visually confirm the reliability of the predictions.
 
 If you have any questions about my code or dataset, I´m happy to help. You can contact me by mail: **jakob.gollreiter@tum.de**
+## Important Notice
+The thesis (PDF file) [BachelorThesis_Gollreiter20.08.pdf](https://github.com/JakobMichaelGollreiter/Thesis-Robust-and-Computational-Efficient-Vehicle-Trajectory-Prediction-for-Autonomous-Driving-thro/blob/main/BachelorThesis_Gollreiter20.08.pdf) may not render correctly in the GitHub viewer. Please download it to view properly.
 
 [](url)![Sample Image](Images/FrontIm.png){:height="70%" width="70%"}
 
